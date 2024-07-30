@@ -5,7 +5,6 @@ export default function Cards(props) {
   return (
     <>
     <Card  className="max-w-sm bg-[#F6F6F6]">
-      <h1>Feature</h1>
       <div>
         <div >
             <img src={props.image} className="mb-3 rounded-full shadow-lg w-20"></img>

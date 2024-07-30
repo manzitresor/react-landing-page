@@ -32,6 +32,8 @@ export default function Features() {
  ] 
   return (
     <>
+    <section className="h-screen flex flex-col justify-center">
+    <h1 className="text-3xl font-bold text-center mb-11">Features</h1>
     <div className="grid grid-cols-4">
         {
           data.map((item)=>(
@@ -39,6 +41,7 @@ export default function Features() {
           ))
         }
     </div>
+    </section>
     
     </>
   )
