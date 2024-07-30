@@ -4,7 +4,7 @@ import Cards from './Cards'
 export default function Service() {
   return (
     <>
-      <div className="bg-[#5E96FC] h-full">
+      <section className="bg-[#5E96FC] h-full pb-10">
             <h1 className="text-5xl text-white font-bold text-center mb-5 pt-10">Features</h1>
             <p className="text-gray-200 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
             <div className="grid grid-cols-3 mt-6 gap-y-5">
@@ -14,7 +14,7 @@ export default function Service() {
                 ))
             }
             </div>
-      </div>
+      </section>
     </>
   )
 }

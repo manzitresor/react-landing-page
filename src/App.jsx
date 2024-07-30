@@ -1,4 +1,5 @@
 import Features from "./components/Features/Features"
+import Gallery from "./components/Gallery/Gallery"
 import Service from "./components/ourselvices/Service"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
     <Features/>
     <Service></Service>
+    <Gallery/>
    </>
   )
 }
